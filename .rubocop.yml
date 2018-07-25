@@ -1,0 +1,11 @@
+AllCops:
+  TargetRubyVersion: 2.5.1
+  Exclude:
+    - db/schema.rb
+
+Style/Documentation:
+  Enabled: false
+
+Metrics/MethodLength:
+  Exclude:
+    - db/migrate/*
